@@ -1,0 +1,26 @@
+#red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;right: 0px;
+}
+#blue{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;right: 0px;
+}
+#tst1{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+#tst2{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}

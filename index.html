@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="robickStyle.css">
+    <script src="jsRobick.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 id="x">X-deg:</h1>
+    <h1 id="x2">X2-deg:</h1>
+    <input min="0" max="360" type="range" id="degX" onmousemove="rotate(this.value,'x')">
+    <h1 id="y">Y-deg</h1>
+    <h1 id="y2">Y2-deg</h1>
+    <input min="0" max="360" type="range" id="degY" onmousemove="rotate(this.value,'y')">
+    <h1 id="z">Z-deg</h1>
+    <h1 id="z2">Z2-deg</h1>
+    <input min="0" max="360" type="range" id="degZ" onmousemove="rotate(this.value,'z')">
+    <br>
+    <br>
+    <h1 id="cordinate"></h1>
+    <div id="tst1"></div>
+    <div id="tst2"></div>
+</body>
+</html>
